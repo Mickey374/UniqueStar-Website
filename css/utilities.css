@@ -64,6 +64,22 @@
 .btn-dark a{
     color: white;
 }
+/*Text Colors*/
+.text-primary{
+    color: var(--primary-color);
+}
+
+.text-secondary{
+    background-color: var(--secondary-color);
+}
+
+.text-dark{
+    background-color: var(--dark-color);
+}
+
+.text-lighter{
+    background-color: var(--lighter-color);
+}
 
 /*Text Sizes*/
 .lead{
@@ -88,6 +104,28 @@
 
 .text-center{
     text-align: center;
+}
+
+/*Alert*/
+.alert{
+   background-color: var(--lighter-color);
+   padding: 10px 20px;
+   font-weight: bold;
+   margin: 15px 0;
+}
+
+.alert i{
+    margin-right: 10px;
+}
+
+.alert-success{
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error{
+    background-color: var(--error-color);
+    color: #fff;
 }
 
 .flex{
